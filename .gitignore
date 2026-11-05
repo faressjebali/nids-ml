@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environment
+.venv/
+.env
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data: never commit raw or processed datasets
+data/*
+!data/README.md
+
+# Model artifacts
+models/
+*.pt
+*.pkl
+*.joblib
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

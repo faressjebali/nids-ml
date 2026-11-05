@@ -1,0 +1,40 @@
+[project]
+name = "nids"
+version = "0.1.0"
+license = "MIT"
+description = "Machine learning for network intrusion and anomaly detection (UNSW-NB15, CIC-IDS2017)."
+readme = "README.md"
+authors = [
+    { name = "Fares Jebali", email = "fjbeli39@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "pyarrow>=26.0.0",
+    "pyyaml>=6.0.3",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "jupyterlab>=4.6.4",
+    "pytest>=9.1.1",
+    "ruff>=0.17.3",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]   # pycodestyle, pyflakes, isort, bugbear, pyupgrade
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
