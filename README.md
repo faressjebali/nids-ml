@@ -1,7 +1,7 @@
 # nids-ml
 
-Machine learning for network intrusion and anomaly detection,
-trained on UNSW-NB15 and evaluated for generalization on CIC-IDS2017.
+Machine learning for network intrusion and anomaly detection.
+The plan: train on UNSW-NB15, then test generalization on CIC-IDS2017.
 
 > Work in progress.
 
