@@ -5,7 +5,7 @@ license = "MIT"
 description = "Machine learning for network intrusion and anomaly detection (UNSW-NB15, CIC-IDS2017)."
 readme = "README.md"
 authors = [
-    { name = "Fares Jebali", email = "fjbeli39@gmail.com" }
+    { name = "Fares Jebali", email = "189713950+faressjebali@users.noreply.github.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [
